@@ -6,7 +6,7 @@ import Footer from './pages/Home/Footer/Footer';
 import Navbar from './Components/Navbar/Navbar';
 import About from './pages/About/About';
 import Product from './pages/Product/product';
-import Gallery from './pages/Gallery/Gallery';
+
 import ScrollToTop from './Components/ScrollTop/ScrollTop';
 
 function App() {
