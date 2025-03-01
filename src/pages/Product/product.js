@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Zandair100p from '../../Components/Zandair100p/Zandair100p';
 import ZandairPcoc from '../../Components/ZandairPcoc/ZandairPcoc';
 import Zandair100c from '../../Components/Zandair100c/Zandair100c';
