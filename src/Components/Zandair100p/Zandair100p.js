@@ -6,7 +6,7 @@ function Zandair100p() {
     <div className={styles.outer}>
       {/* Image Section */}
       <div className={styles.image}  onClick={() => navigate('/product')} style={{ cursor: 'pointer' }}>
-        <img src="100p.jpg" alt="Zandair100p"/>
+        <img src={`${process.env.PUBLIC_URL}/100p.jpg`} alt="Zandair100p"/>
       </div>
       <div className={styles.name}>
         <h4>Zandair TM100p <span>Air purification for Pathology</span></h4>

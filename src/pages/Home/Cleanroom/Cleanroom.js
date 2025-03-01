@@ -5,17 +5,17 @@ function Cleanroom() {
     const navigate=useNavigate()
     const describe = [
         {
-            img: `100c.jpg`,
+            img: `${process.env.PUBLIC_URL}/100c.jpg`,
             name: `ZANDAIR TM 100C`,
             dec: `Air Purification for ART`,
         },
         {
-            img: `100p.jpg`,
+            img: `${process.env.PUBLIC_URL}/100p.jpg`,
             name: `ZANDAIR TM 100C`,
             dec: `Air Purification for Pathology`,
         },
         {
-            img: `pcco3.jpg`,
+            img: `${process.env.PUBLIC_URL}/pcco3.jpg`,
             name: `ZANDAIR PCOC TM 3`,
             dec: `Air Purification Unit`,
         },

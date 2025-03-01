@@ -7,27 +7,27 @@ function Areaofexpertise() {
 
     const data = [
         {
-            img: `1_page_0001.jpg`,
+            img: `${process.env.PUBLIC_URL}/1_page_0001.jpg`,
             name: `Good Manufacturing Practice System`,
         },
         {
-            img: `1_page_0001.jpg`,
+            img: `${process.env.PUBLIC_URL}/1_page_0001.jpg`,
             name: `Certificate of Compliance`,
         },
         {
-            img: `3_page_0001.jpg`,
+            img: `${process.env.PUBLIC_URL}/3_page_0001.jpg`,
             name: `ISO 9001:2015 QMS`,
         },
         {
-            img: `4_page_0001.jpg`,
+            img: `${process.env.PUBLIC_URL}/4_page_0001.jpg`,
             name: `Quality Management System`,
         },
         {
-            img: `5_page-0001.jpg`,
+            img: `${process.env.PUBLIC_URL}/5_page-0001.jpg`,
             name: `Certificate of Recognition`,
         },
         {
-            img: `1_page_0001.jpg`,
+            img: `${process.env.PUBLIC_URL}/1_page_0001.jpg`,
             name: `ISO 13485:2016 QMSMD`,
         },
     ];

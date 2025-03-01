@@ -5,7 +5,7 @@ function Zandair100c() {
     <div className={styles.outer}>
       {/* Image Section */}
       <div className={styles.image}>
-        <img src="100c.jpg" alt="Zandair100c" />
+        <img src={`${process.env.PUBLIC_URL}/100c.jpg`} alt="Zandair100c" />
       </div>
       <div className={styles.name}>
         <h4>Zandair TM100c <span>Air purification for ART</span></h4>

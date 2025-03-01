@@ -5,7 +5,7 @@ return (
     <div className={styles.outer}>
       {/* Image Section */}
       <div className={styles.image}>
-        <img src="pcco3.jpg" alt="ZandairPco"/>
+        <img src={`${process.env.PUBLIC_URL}/pcco3.jpg`} alt="ZandairPco"/>
       </div>
       <div className={styles.name}>
         <h4>Zandair pcoctm3 <span>Air purification Unit</span></h4>

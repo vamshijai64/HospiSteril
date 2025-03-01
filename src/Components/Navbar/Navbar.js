@@ -8,7 +8,7 @@ function Navbar(){
   return(
     <nav>
       <div className={styles.image}>
-        <img src="hospilogo.png" alt="company logo" />
+        <img src={`${process.env.PUBLIC_URL}/hospilogo.png`} alt="company logo" />
       </div>
      
       <div className={styles.headerlinks}>
