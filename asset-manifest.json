@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vamshijai64/HospiSteril/static/css/main.b288f02d.css",
+    "main.js": "/vamshijai64/HospiSteril/static/js/main.57bad912.js",
+    "static/js/453.8ebde4cf.chunk.js": "/vamshijai64/HospiSteril/static/js/453.8ebde4cf.chunk.js",
+    "index.html": "/vamshijai64/HospiSteril/index.html",
+    "main.b288f02d.css.map": "/vamshijai64/HospiSteril/static/css/main.b288f02d.css.map",
+    "main.57bad912.js.map": "/vamshijai64/HospiSteril/static/js/main.57bad912.js.map",
+    "453.8ebde4cf.chunk.js.map": "/vamshijai64/HospiSteril/static/js/453.8ebde4cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b288f02d.css",
+    "static/js/main.57bad912.js"
+  ]
+}
