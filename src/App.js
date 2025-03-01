@@ -11,7 +11,7 @@ import ScrollToTop from './Components/ScrollTop/ScrollTop';
 
 function App() {
   return(
-    <BrowserRouter>
+    <BrowserRouter  basename="/HospiSteril">
     <ScrollToTop/>
     <Navbar />
     <Routes>
