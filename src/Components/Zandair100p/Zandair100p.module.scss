@@ -1,0 +1,264 @@
+.outer{
+
+    width:100%;
+    margin-top:130px;
+    overflow: hidden;
+}
+
+
+.image img{
+  width:500px;
+  height:auto;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.name h4{
+  font-size:32px;
+  color:white;
+  font-weight:600;
+  background-color:blue;
+  text-align: center;
+  text-transform: uppercase;
+  padding:20px 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name span{
+font-size: 20px;
+color:white;
+font-weight:400;
+background-color:blue;
+
+}
+
+h6{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin: 20px 70px;
+    padding: 10px;
+}
+
+.description{
+    display:flex;
+    width:100%;
+    height:auto;
+    margin:20px 70px;
+
+}
+ul li{
+    margin:10px -50px;
+    font-weight: 700;
+    
+}
+
+
+.headlist{
+    font-size:14px ;
+    margin:auto  50px;
+
+}
+
+.head{
+    font-size: 18px;
+    margin:40px 60px;
+    background-color: rgb(21, 68, 21);
+    list-style-type: none;
+    padding:10px 10px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 400;
+}
+
+.para{
+    margin:20px 100px;
+}
+
+.hl{
+    width:94%;
+    margin:5px 20px;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+  }
+  
+  .specTable {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    background: #f8f9fa; 
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specTable th {
+    background-color: #0077b6; 
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  .specTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .specTable tbody tr:nth-child(even) {
+    background-color: #e9ecef; 
+  }
+  
+  .specTable tbody tr:hover {
+    background-color: #d6e4f0; 
+  }
+  
+
+  .specTable tbody tr td:first-child {
+    width: 30%;
+    font-weight: bold;
+  }
+  
+  .specTable tbody tr td:last-child {
+    width: 70%;
+  }
+  
+  .orderTable {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .orderTable th {
+    background-color: #198754; 
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+  }
+  
+  .orderTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .orderTable tbody tr:nth-child(even) {
+    background-color: #f1f3f4; 
+  }
+  
+  .orderTable tbody tr:hover {
+    background-color: #d1e7dd;
+  }
+  @media (max-width: 1200px) {
+    .image img {
+        width: 80%; /* Reduce image size for tablets */
+    }
+
+    .name h4 {
+        font-size: 28px; /* Adjust font size for medium screens */
+    }
+
+    .description {
+        flex-direction: column;
+        height: auto; /* Stack description text vertically */
+        margin: 20px 50px; /* Adjust margin */
+    }
+
+    .para {
+        margin: 20px 50px; /* Adjust margin */
+    }
+
+    .line {
+        height: 150px; /* Adjust height of line */
+    }
+
+    .specTable,
+    .orderTable {
+        width: 90%; /* Adjust table width */
+    }
+}
+
+/* Small Screens (phones/tablets in portrait mode) */
+@media (max-width: 768px) {
+    .image img {
+        width: 100%; /* Make image full width on smaller screens */
+    }
+
+    .name h4 {
+        font-size: 24px; /* Smaller font size for name */
+        padding: 15px 15px;
+    }
+
+    .description {
+        flex-direction: column; /* Stack elements vertically */
+        margin: 10px 20px; /* Adjust margins */
+    }
+
+    .para {
+        margin: 20px 20px; /* Adjust margins */
+    }
+
+    .line {
+        height: 100px; /* Reduce height of line */
+    }
+
+    .specTable,
+    .orderTable {
+        width: 95%; /* Make tables full width */
+    }
+
+    h6 {
+        margin: 10px 30px; /* Adjust heading spacing */
+        font-size: 18px;
+    }
+}
+
+/* Extra Small Screens (phones in portrait mode) */
+@media (max-width: 480px) {
+    .image img {
+        width: 100%; /* Make image full width on mobile */
+    }
+
+    .name h4 {
+        font-size: 20px; /* Smaller font size */
+        padding: 10px 10px;
+    }
+
+    .name span {
+        font-size: 16px; /* Smaller font size for span */
+    }
+
+    .description {
+        flex-direction: column; /* Stack description vertically */
+        margin: 10px 10px; /* Adjust margin */
+    }
+
+    .para {
+        margin: 15px 10px; /* Adjust margin */
+    }
+
+    .line {
+        height: 80px; /* Reduce line height */
+    }
+
+    .specTable,
+    .orderTable {
+        width: 100%; /* Tables take full width */
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .specTable th,
+    .orderTable th {
+        font-size: 14px; /* Adjust header font size */
+    }
+
+    h6 {
+        font-size: 16px;
+        margin: 10px 20px; /* Adjust heading spacing */
+    }
+}

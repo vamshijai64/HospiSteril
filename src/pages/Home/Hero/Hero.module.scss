@@ -1,0 +1,134 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 9rem;
+    margin-left: 1.5rem;
+  }
+  
+  .description {
+    margin-top:2rem;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    line-height: 2.2rem;
+    margin-left: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .button {
+    padding: 10px 40px;
+    font-size:0.8rem;
+    width:300px;
+    height:50px;
+    color: white;
+    background-color:#F6591A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    /* background-color: #0056b3; */
+    transform:scale(1.05);
+  }
+  
+.btooo{
+    margin-left: 1rem ;
+  }
+
+
+
+
+
+  @media (max-width: 1200px) {
+    .title {
+        font-size: 3.5rem; /* Reduce title size for medium screens */
+        margin-top: 7rem;
+        margin-left: 1rem;
+    }
+
+    .description {
+        font-size: 1.1rem; /* Reduce description size */
+        margin-left: 1.5rem;
+    }
+
+    .button {
+        width: 250px; /* Adjust button width */
+        font-size: 0.9rem; /* Increase button font size slightly */
+    }
+}
+
+@media (max-width: 768px) {
+    .overlay {
+        top: 80px; /* Adjust overlay top for smaller screens */
+    }
+
+    .title {
+        font-size: 2.5rem; /* Reduce title size for tablets */
+        margin-top: 6rem;
+        margin-left: 0.5rem;
+    }
+
+    .description {
+        font-size: 1rem; /* Smaller text for tablets */
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .button {
+        width: 80%; /* Make button width responsive */
+        font-size: 1rem; /* Adjust font size */
+        margin: 1rem auto; /* Center button */
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay {
+        top: 60px; /* Further adjust overlay top for mobile screens */
+    }
+
+    .title {
+        font-size: 1.8rem; /* Smaller title size for mobile */
+        margin-top: 4rem;
+    }
+
+    .description {
+        font-size: 0.9rem; /* Further reduce font size for mobile */
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .button {
+        width: 90%; /* Make button full-width for mobile */
+        font-size: 1rem; /* Keep font size readable on mobile */
+        margin-top: 2rem; /* Adjust spacing for mobile */
+    }
+}
